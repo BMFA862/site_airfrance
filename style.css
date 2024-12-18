@@ -6,6 +6,7 @@ body {
 #carte {
     width: 90%;
     margin: 0 auto;
+    /* Centrer la div */
     background-color: white;
     text-align: center;
     align-content: center;
@@ -15,22 +16,44 @@ body {
         margin: 50px;
     }
 
-    img{
-         border-radius: 10px;
-    }
-
     .nom {
-        width: 500px;
+        width: 100%;
+        height: auto;
+        max-width: 700px;
+        max-height: 100%;
+        /* Taille maximale de l'image */
+        display: block;
+        margin: 0 auto;
+        /* Centrer l'image à l'intérieur de la div */
     }
 
     .bienv {
-        width: 500px;
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+        max-width: 550px;
+        max-height: 100%;
+        /* Taille maximale de l'image */
+        display: block;
+        margin: 0 auto;
+        /* Centrer l'image à l'intérieur de la div */
+    }
+
+    .iframe-container{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+        height: 40vw;
+    }
+
+    iframe {
+        border-radius: 10px;
     }
 
     .menu {
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 70px;
         margin: 30px;
     }
 
@@ -49,6 +72,23 @@ body {
         color: #E2001A;
         /* Couleur rouge pour l'animation */
         border: 2px solid #E2001A;
+    }
+
+    /* Media queries pour les appareils de moins de 768px de large */
+    @media (max-width: 768px) {
+        .menu {
+            align-items: center;
+            gap: 10px;
+            /* Espacement réduit pour les écrans plus petits */
+            margin: 20px;
+        }
+
+        .menu a {
+            padding: 8px 16px;
+            /* Réduction du padding pour les petits écrans */
+            font-size: 12px;
+            /* Réduction de la taille de police pour les petits écrans */
+        }
     }
 
     video {
@@ -74,23 +114,17 @@ body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* Optionnel : ajoute une ombre pour plus de style */
     }
-    
-    iframe{
-        border-radius: 10px;
-        margin: 15px;
-    }
-
-    .class{
+    .class {
         width: 700px;
         margin-top: 10px;
     }
 
-    .eco{
+    .eco {
         width: 700px;
     }
 }
 
-#credits{
+#credits {
     background-color: gray;
     height: 30px;
     font-family: cursive;

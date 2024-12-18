@@ -46,18 +46,15 @@ body {
 .menu {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 70px;
     margin: 30px;
 }
 
 .menu a {
     text-decoration: none;
     color: #003DA5;
-    /* Couleur bleue Air France */
     background-color: #FFFFFF;
-    /* Fond blanc */
     border: 2px solid #003DA5;
-    /* Bordure bleue */
     padding: 10px 20px;
     font-size: 16px;
     transition: color 0.3s, border-color 0.3s;
@@ -70,7 +67,31 @@ body {
     border: 2px solid #E2001A;
 }
 
-#credits{
+/* Media queries pour les appareils de moins de 768px de large */
+@media (max-width: 768px) {
+    .menu {
+        align-items: center;
+        gap: 10px;
+        /* Espacement réduit pour les écrans plus petits */
+        margin: 20px;
+    }
+
+    .menu a {
+        padding: 8px 16px;
+        /* Réduction du padding pour les petits écrans */
+        font-size: 12px;
+        /* Réduction de la taille de police pour les petits écrans */
+    }
+
+    .acces {
+        padding: 10px 20px;
+        /* Réduction du padding */
+        font-size: 14px;
+        /* Taille plus petite pour le texte */
+    }
+}
+
+#credits {
     background-color: gray;
     height: 30px;
     font-family: cursive;
