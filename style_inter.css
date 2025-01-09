@@ -11,7 +11,8 @@ body {
     align-content: center;
 
     img {
-        width: 650px;
+        max-width: 90%;
+        height: 40vw;
         border-radius: 10px;
     }
 
