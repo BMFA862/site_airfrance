@@ -1,0 +1,147 @@
+body {
+    background-color: #446EEE;
+    font-family: cursive;
+}
+
+#carte {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    align-content: center;
+
+    img {
+        max-width: 90%;
+        height: 40vw;
+        border-radius: 10px;
+    }
+
+    button {
+        margin: 30px;
+    }
+
+    .acces {
+        border-radius: 10px;
+        color: #FFFFFF;
+        /* Couleur du texte blanc */
+        background-color: #003DA5;
+        /* Couleur bleue du bouton */
+        border: none;
+        /* Retirer la bordure */
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        /* Ajout du curseur de pointeur */
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .acces:hover {
+        background-color: #E2001A;
+        /* Couleur rouge pour l'animation */
+        color: #FFFFFF;
+        /* Couleur du texte blanc */
+    }
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #003DA5;
+    background-color: #FFFFFF;
+    border: 2px solid #003DA5;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: color 0.3s, border-color 0.3s;
+    border-radius: 10px;
+}
+
+.menu a:hover {
+    color: #E2001A;
+    /* Couleur rouge pour l'animation */
+    border: 2px solid #E2001A;
+}
+
+/* Media queries pour les appareils de moins de 768px de large */
+@media (max-width: 768px) {
+    .menu {
+        align-items: center;
+        gap: 10px;
+        /* Espacement réduit pour les écrans plus petits */
+        margin: 20px;
+    }
+
+    .menu a {
+        padding: 8px 16px;
+        /* Réduction du padding pour les petits écrans */
+        font-size: 12px;
+        /* Réduction de la taille de police pour les petits écrans */
+    }
+
+    .acces {
+        padding: 10px 20px;
+        /* Réduction du padding */
+        font-size: 14px;
+        /* Taille plus petite pour le texte */
+    }
+}
+
+#credits {
+    background-color: gray;
+    height: 30px;
+    font-family: cursive;
+    color: #FFFFFF;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* loader */
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #446EEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 15px;
+    animation: loader infinite 0.3s alternate;
+}
+
+.d2 {
+    animation-delay: 0.05s;
+}
+
+.d3 {
+    animation-delay: 0.1s;
+}
+
+@keyframes loader {
+    100% {
+        transform: translateY(-30px);
+    }
+}
+
+.fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
