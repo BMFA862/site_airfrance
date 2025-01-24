@@ -1,0 +1,67 @@
+#carte{
+    
+    img{
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    .nom {
+        height: 90px;
+    }
+    
+    .bienv {
+        height: 50vw;
+    }
+
+    .ailogo{
+        height: 30vw;
+    }
+
+    .airmark{
+        height: 10vw;
+    }
+
+    .aipln{
+        height: 25vw;
+    }
+
+    .aivolut{
+
+    }
+
+    .class{
+
+    }
+
+    .eco{
+
+    }
+
+    .klm{
+        height: 10vw;
+    }
+
+    .skyklm{
+        height: 20vw;
+    }
+
+    .klmtabl{
+        height: 100vw;
+    }
+
+    .conlog{
+        height: 20vw;
+    }
+
+    .concdg{
+        height: 30vw;
+    }
+
+    .convol{
+        height: 20vw;
+    }
+
+    video {
+        border-radius: 10px;
+        height: 40vw;
+    }
+}

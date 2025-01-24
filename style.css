@@ -15,34 +15,6 @@ body {
         margin: 50px;
     }
 
-    .nomm{
-        width: 100%;
-        height: auto;
-        max-width: 700px;
-        max-height: 100%;
-        /* Taille maximale de l'image */
-        display: block;
-        margin: 0 auto;
-        /* Centrer l'image à l'intérieur de la div */
-    }
-
-    .nom {
-        width: 100%;
-        height: auto;
-        max-width: 700px;
-        max-height: 100%;
-        /* Taille maximale de l'image */
-        display: block;
-        margin: 0 auto;
-        /* Centrer l'image à l'intérieur de la div */
-    }
-
-    .bienv {
-        display: block;
-        margin: 0 auto;
-        /* Centrer l'image à l'intérieur de la div */
-    }
-
     .iframe-container{
         display: flex;
         justify-content: center;
@@ -51,6 +23,8 @@ body {
     }
 
     iframe {
+        width: 100%;
+        height: auto;
         border-radius: 10px;
     }
 
@@ -93,10 +67,6 @@ body {
             font-size: 12px;
             /* Réduction de la taille de police pour les petits écrans */
         }
-    }
-
-    video {
-        border-radius: 10px;
     }
 
     .Liens {
