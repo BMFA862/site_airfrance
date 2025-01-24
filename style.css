@@ -88,14 +88,6 @@ body {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         /* Optionnel : ajoute une ombre pour plus de style */
     }
-    .class {
-        width: 700px;
-        margin-top: 10px;
-    }
-
-    .eco {
-        width: 700px;
-    }
 }
 
 #credits {

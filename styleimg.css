@@ -4,48 +4,60 @@
         max-width: 100%;
         border-radius: 10px;
     }
+
     .nom {
-        height: 90px;
+        height: 15vw;
+        max-height: 100px;
     }
     
     .bienv {
         height: 50vw;
+        max-height: 400px;
     }
 
     .ailogo{
-        height: 30vw;
+        height: 20vw;
+        max-height: 200px;
     }
 
     .airmark{
-        height: 10vw;
+        height: 5vw;
+        max-height: 70px;
     }
 
     .aipln{
         height: 25vw;
+        max-height: 400px;
     }
 
     .aivolut{
 
     }
 
-    .class{
-
+    .class {
+        width: 80vw;
+        max-width: 700px;
+        margin-top: 10px;
     }
 
-    .eco{
-
+    .eco {
+        width: 80vw;
+        max-width: 700px;
     }
 
     .klm{
-        height: 10vw;
+        height: 9vw;
+        margin-right: 2vw;
     }
 
     .skyklm{
-        height: 20vw;
+        height: 12vw;
+        margin-left: 2vw;
     }
 
     .klmtabl{
-        height: 100vw;
+        height: 90vw;
+        max-height: 700px;
     }
 
     .conlog{
