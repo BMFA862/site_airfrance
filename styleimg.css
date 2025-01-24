@@ -31,7 +31,8 @@
     }
 
     .aivolut{
-
+        height: 45vw;
+        max-height: 600px;
     }
 
     .class {
