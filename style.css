@@ -23,6 +23,8 @@ body {
     }
 
     iframe {
+        max-width: 900px;
+        max-height: 500px;
         width: 100%;
         height: auto;
         border-radius: 10px;
